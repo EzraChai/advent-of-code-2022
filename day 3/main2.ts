@@ -22,19 +22,6 @@ const readFile = async () => {
     }
   }
 
-  // data.forEach((element) => {
-  //   element = element.trim();
-  //   let half = Math.floor(element.length / 2);
-  //   let leftRucksack = element.substr(0, half);
-  //   let rightRucksack = element.substr(half);
-
-  //   console.log(leftRucksack, rightRucksack);
-
-  //   let repeatedWord: string[] = [];
-
-  //   console.log(repeatedWord);
-
-  // });
   console.log(marks);
 };
 
